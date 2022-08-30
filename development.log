@@ -1,0 +1,1847 @@
+[info] [API] Request for library/create: {
+	"action": "library/create",
+	"params": {
+		"name": "cars"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "s41VQTNjqS",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for library/create"
+}
+[error] [API]: Error File not found: C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/tsconfig.base.json: {
+	"loggerData": {
+		"action": "library/create",
+		"params": {
+			"name": "cars"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service"
+			},
+			"userContext": {
+				"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+				"correlationId": "s41VQTNjqS",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": {
+		"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/tsconfig.base.json",
+		"code": "ENOENT"
+	},
+	"stack": "Error: File not found: C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/tsconfig.base.json\n    at RealFileSystemHost.getFileNotFoundErrorIfNecessary (C:\\Users\\mati1\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\node_modules\\@ts-morph\\common\\dist\\ts-morph-common.js:1952:50)\n    at RealFileSystemHost.readFile (C:\\Users\\mati1\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\node_modules\\@ts-morph\\common\\dist\\ts-morph-common.js:1866:24)\n    at async TsMorphFileAdapter.read (C:\\Users\\mati1\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:10312:22)\n    at async resolveTsConfigPaths (C:\\Users\\mati1\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:9431:59)\n    at async getWorkspaceQueryHandler (C:\\Users\\mati1\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:9313:19)\n    at async outputResult (C:\\Users\\mati1\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:2606:31)",
+	"level": "error",
+	"message": "[API]: Error File not found: C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/tsconfig.base.json"
+}
+[info] [API] Request for library/create: {
+	"action": "library/create",
+	"params": {
+		"name": "cars"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "WE3iVg919w",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for library/create"
+}
+[warn] [TsMorphFileAdapter]: File Not Found, creating...: {
+	"filePath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/tsconfig.json",
+	"level": "warn",
+	"message": "[TsMorphFileAdapter]: File Not Found, creating..."
+}
+[info] [CLI] Calling Command library/create: {
+	"funcParams": {
+		"name": "cars"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command library/create"
+}
+[info] [CommandBus]: Dispatching command LIBRARY_CREATE: {
+	"commandName": "LIBRARY_CREATE",
+	"payload": {
+		"workspaceRoot": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service",
+		"libsFolder": "libs",
+		"libName": "cars",
+		"libSubPath": "",
+		"projectConfigPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/angular.json",
+		"tsConfigFile": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/tsconfig.json"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command LIBRARY_CREATE"
+}
+[warn] [TsMorphFileAdapter]: File Not Found, creating...: {
+	"filePath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/tsconfig.lib.json",
+	"level": "warn",
+	"message": "[TsMorphFileAdapter]: File Not Found, creating..."
+}
+[warn] [TsMorphFileAdapter]: File Not Found, creating...: {
+	"filePath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/index.ts",
+	"level": "warn",
+	"message": "[TsMorphFileAdapter]: File Not Found, creating..."
+}
+[info] [CommandBus]: Handled  LIBRARY_CREATE: {
+	"commandName": "LIBRARY_CREATE",
+	"payload": {
+		"workspaceRoot": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service",
+		"libsFolder": "libs",
+		"libName": "cars",
+		"libSubPath": "",
+		"projectConfigPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/angular.json",
+		"tsConfigFile": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/tsconfig.json"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  LIBRARY_CREATE"
+}
+[info] [CLI] Called Command library/create: {
+	"message": "[CLI] Called Command library/create",
+	"level": "info"
+}
+[info] [API] Response ok: library/create: {
+	"result": {
+		"filePath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/index.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: library/create"
+}
+[warn] [TsMorphFileAdapter]: File Not Found, creating...: {
+	"filePath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/jest.config.js",
+	"level": "warn",
+	"message": "[TsMorphFileAdapter]: File Not Found, creating..."
+}
+[info] [EventBus]: Broadcasting event LIBRARY_CREATED: {
+	"type": "LIBRARY_CREATED",
+	"payload": {
+		"libraryRoot": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars",
+		"publicApiFilePath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/index.ts",
+		"libName": "cars",
+		"projectConfigPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/angular.json",
+		"tsConfigFile": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/tsconfig.json",
+		"libPrefix": "lib"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event LIBRARY_CREATED"
+}
+[info] [CommandBus]: Dispatching command ADD_TEST_TARGET: {
+	"commandName": "ADD_TEST_TARGET",
+	"payload": {
+		"workspaceRoot": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service",
+		"libraryRoot": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars",
+		"libraryName": "cars",
+		"projectConfigFile": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/angular.json"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command ADD_TEST_TARGET"
+}
+[warn] [TsMorphFileAdapter]: File Not Found, creating...: {
+	"filePath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/tsconfig.spec.json",
+	"level": "warn",
+	"message": "[TsMorphFileAdapter]: File Not Found, creating..."
+}
+[warn] [TsMorphFileAdapter]: File Not Found, creating...: {
+	"filePath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/test-setup.ts",
+	"level": "warn",
+	"message": "[TsMorphFileAdapter]: File Not Found, creating..."
+}
+[info] [EventBus]: Broadcasted LIBRARY_CREATED: {
+	"event": {
+		"libraryRoot": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars",
+		"publicApiFilePath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/index.ts",
+		"libName": "cars",
+		"projectConfigPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/angular.json",
+		"tsConfigFile": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/tsconfig.json",
+		"libPrefix": "lib"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted LIBRARY_CREATED"
+}
+[warn] [TsMorphFileAdapter]: File Not Found, creating...: {
+	"filePath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/jest.config.js",
+	"level": "warn",
+	"message": "[TsMorphFileAdapter]: File Not Found, creating..."
+}
+[info] [CommandBus]: Handled  ADD_TEST_TARGET: {
+	"commandName": "ADD_TEST_TARGET",
+	"payload": {
+		"workspaceRoot": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service",
+		"libraryRoot": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars",
+		"libraryName": "cars",
+		"projectConfigFile": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/angular.json"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  ADD_TEST_TARGET"
+}
+[warn] [TsMorphFileAdapter]: File Not Found, creating...: {
+	"filePath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/jest.preset.js",
+	"level": "warn",
+	"message": "[TsMorphFileAdapter]: File Not Found, creating..."
+}
+[warn] [TsMorphFileAdapter]: File Not Found, creating...: {
+	"filePath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/.eslintrc.json",
+	"level": "warn",
+	"message": "[TsMorphFileAdapter]: File Not Found, creating..."
+}
+[warn] [TsMorphFileAdapter]: File Not Found, creating...: {
+	"filePath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/.eslintrc.json",
+	"level": "warn",
+	"message": "[TsMorphFileAdapter]: File Not Found, creating..."
+}
+[info] [CommandBus]: Dispatching command ADD_LINT_TARGET: {
+	"commandName": "ADD_LINT_TARGET",
+	"payload": {
+		"workspaceRoot": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service",
+		"angularConfigPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/angular.json",
+		"libraryRoot": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars",
+		"libraryName": "cars",
+		"libPrefix": "lib"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command ADD_LINT_TARGET"
+}
+[info] [CommandBus]: Handled  ADD_LINT_TARGET: {
+	"commandName": "ADD_LINT_TARGET",
+	"payload": {
+		"workspaceRoot": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service",
+		"angularConfigPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/angular.json",
+		"libraryRoot": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars",
+		"libraryName": "cars",
+		"libPrefix": "lib"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  ADD_LINT_TARGET"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "1BDH2nJMv2",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "cars",
+			"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "cars",
+			"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "1BDH2nJMv2",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "components",
+			"insideOf": "Lib",
+			"config": {
+				"stylesExtension": "scss",
+				"viewEncapsulation": "None",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "models",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "repository",
+			"type": "ABSTRACTION",
+			"suffix": "Repository",
+			"folder": "repositories",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "service",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "Lib"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "components",
+			"insideOf": "Lib",
+			"config": {
+				"stylesExtension": "scss",
+				"viewEncapsulation": "None",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "models",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "repository",
+			"type": "ABSTRACTION",
+			"suffix": "Repository",
+			"folder": "repositories",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "service",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "Lib"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for angular-component/create: {
+	"action": "angular-component/create",
+	"params": {
+		"name": "cars",
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib",
+		"entityId": "smartComponent"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "1BDH2nJMv2",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/create"
+}
+[info] [CLI] Calling Command angular-component/create: {
+	"funcParams": {
+		"name": "cars",
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib",
+		"entityId": "smartComponent"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command angular-component/create"
+}
+[info] [CommandBus]: Dispatching command COMPONENT_CREATE_SMART_COMPONENT: {
+	"commandName": "COMPONENT_CREATE_SMART_COMPONENT",
+	"payload": {
+		"name": "cars",
+		"prefix": "lib",
+		"suffix": "Component",
+		"absoluteFolderPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/components",
+		"config": {
+			"stylesExtension": "scss",
+			"viewEncapsulation": "None",
+			"selector": "generated",
+			"changeDetectionStrategy": "OnPush"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command COMPONENT_CREATE_SMART_COMPONENT"
+}
+[warn] [TsMorphFileAdapter]: File Not Found, creating...: {
+	"filePath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/components/cars.component.html",
+	"level": "warn",
+	"message": "[TsMorphFileAdapter]: File Not Found, creating..."
+}
+[warn] [TsMorphFileAdapter]: File Not Found, creating...: {
+	"filePath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/components/cars.component.scss",
+	"level": "warn",
+	"message": "[TsMorphFileAdapter]: File Not Found, creating..."
+}
+[info] [EventBus]: Broadcasting event COMPONENT_SMART_COMPONENT_CREATED: {
+	"type": "COMPONENT_SMART_COMPONENT_CREATED",
+	"payload": {
+		"createdFile": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/components/cars.component.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event COMPONENT_SMART_COMPONENT_CREATED"
+}
+[info] [CommandBus]: Dispatching command CREATE_COMPONENT_MODULE: {
+	"commandName": "CREATE_COMPONENT_MODULE",
+	"payload": {
+		"moduleFilePath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/components/cars.component-module.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command CREATE_COMPONENT_MODULE"
+}
+[info] [EventBus]: Broadcasted COMPONENT_SMART_COMPONENT_CREATED: {
+	"event": {
+		"createdFile": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/components/cars.component.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted COMPONENT_SMART_COMPONENT_CREATED"
+}
+[info] [EventBus]: Broadcasting event MODULE_MODULE_CREATED: {
+	"type": "MODULE_MODULE_CREATED",
+	"payload": {
+		"moduleFile": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/components/cars.component-module.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event MODULE_MODULE_CREATED"
+}
+[info] [EventBus]: Broadcasted MODULE_MODULE_CREATED: {
+	"event": {
+		"moduleFile": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/components/cars.component-module.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted MODULE_MODULE_CREATED"
+}
+[info] [CommandBus]: Dispatching command MODULE_UPDATE_PUBLIC_API: {
+	"commandName": "MODULE_UPDATE_PUBLIC_API",
+	"payload": {
+		"moduleFilePath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/components/cars.component-module.ts",
+		"publicApiPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/index.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command MODULE_UPDATE_PUBLIC_API"
+}
+[info] [CommandBus]: Handled  MODULE_UPDATE_PUBLIC_API: {
+	"commandName": "MODULE_UPDATE_PUBLIC_API",
+	"payload": {
+		"moduleFilePath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/components/cars.component-module.ts",
+		"publicApiPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/index.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  MODULE_UPDATE_PUBLIC_API"
+}
+[info] [CommandBus]: Handled  CREATE_COMPONENT_MODULE: {
+	"commandName": "CREATE_COMPONENT_MODULE",
+	"payload": {
+		"moduleFilePath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/components/cars.component-module.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  CREATE_COMPONENT_MODULE"
+}
+[info] [CommandBus]: Handled  COMPONENT_CREATE_SMART_COMPONENT: {
+	"commandName": "COMPONENT_CREATE_SMART_COMPONENT",
+	"payload": {
+		"name": "cars",
+		"prefix": "lib",
+		"suffix": "Component",
+		"absoluteFolderPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/components",
+		"config": {
+			"stylesExtension": "scss",
+			"viewEncapsulation": "None",
+			"selector": "generated",
+			"changeDetectionStrategy": "OnPush"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  COMPONENT_CREATE_SMART_COMPONENT"
+}
+[info] [CLI] Called Command angular-component/create: {
+	"message": "[CLI] Called Command angular-component/create",
+	"level": "info"
+}
+[info] [API] Response ok: angular-component/create: {
+	"result": {
+		"filePath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/components/cars.component.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: angular-component/create"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/src"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "ILavvr5_lH",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/src"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "cars-service",
+			"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/src/app"
+		},
+		"otherProjects": [
+			{
+				"name": "cars",
+				"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "cars-service",
+			"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/src/app"
+		},
+		"otherProjects": [
+			{
+				"name": "cars",
+				"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "ILavvr5_lH",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "GtPrwqbgzF",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "cars-service",
+			"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/src/app"
+		},
+		"otherProjects": [
+			{
+				"name": "cars",
+				"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "cars-service",
+			"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/src/app"
+		},
+		"otherProjects": [
+			{
+				"name": "cars",
+				"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "GtPrwqbgzF",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "LZmXnJuEOw",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "cars-service",
+			"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/src/app"
+		},
+		"otherProjects": [
+			{
+				"name": "cars",
+				"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "cars-service",
+			"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/src/app"
+		},
+		"otherProjects": [
+			{
+				"name": "cars",
+				"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "LZmXnJuEOw",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/src/app/pages"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "Qgqx5BXreS",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/src/app/pages"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "cars-service",
+			"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/src/app"
+		},
+		"otherProjects": [
+			{
+				"name": "cars",
+				"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "cars-service",
+			"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/src/app"
+		},
+		"otherProjects": [
+			{
+				"name": "cars",
+				"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "Qgqx5BXreS",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/components/cars.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "9E6gyvdOB1",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/components/cars.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "cars",
+			"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "cars",
+			"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "9E6gyvdOB1",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "components",
+			"insideOf": "Lib",
+			"config": {
+				"stylesExtension": "scss",
+				"viewEncapsulation": "None",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "models",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "repository",
+			"type": "ABSTRACTION",
+			"suffix": "Repository",
+			"folder": "repositories",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "service",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "Lib"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "components",
+			"insideOf": "Lib",
+			"config": {
+				"stylesExtension": "scss",
+				"viewEncapsulation": "None",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "models",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "repository",
+			"type": "ABSTRACTION",
+			"suffix": "Repository",
+			"folder": "repositories",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "service",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "Lib"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for service/create: {
+	"action": "service/create",
+	"params": {
+		"name": "cars",
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/components/cars.component.ts",
+		"entityId": "service"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "9E6gyvdOB1",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for service/create"
+}
+[info] [CLI] Calling Command service/create: {
+	"funcParams": {
+		"name": "cars",
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/components/cars.component.ts",
+		"entityId": "service"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command service/create"
+}
+[info] [CommandBus]: Dispatching command CREATE_SERVICE: {
+	"commandName": "CREATE_SERVICE",
+	"payload": {
+		"folderPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/services",
+		"name": "cars",
+		"suffix": "Service"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command CREATE_SERVICE"
+}
+[info] [EventBus]: Broadcasting event SERVICE_CREATED: {
+	"type": "SERVICE_CREATED",
+	"payload": {
+		"createdFile": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/services/cars.service.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event SERVICE_CREATED"
+}
+[info] [CommandBus]: Dispatching command MODULE_CREATE_MODULE: {
+	"commandName": "MODULE_CREATE_MODULE",
+	"payload": {
+		"filePath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/services/cars.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command MODULE_CREATE_MODULE"
+}
+[info] [EventBus]: Broadcasted SERVICE_CREATED: {
+	"event": {
+		"createdFile": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/services/cars.service.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted SERVICE_CREATED"
+}
+[info] [EventBus]: Broadcasting event MODULE_MODULE_CREATED: {
+	"type": "MODULE_MODULE_CREATED",
+	"payload": {
+		"moduleFile": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/services/cars.service-module.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event MODULE_MODULE_CREATED"
+}
+[info] [EventBus]: Broadcasted MODULE_MODULE_CREATED: {
+	"event": {
+		"moduleFile": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/services/cars.service-module.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted MODULE_MODULE_CREATED"
+}
+[info] [CommandBus]: Dispatching command MODULE_UPDATE_PUBLIC_API: {
+	"commandName": "MODULE_UPDATE_PUBLIC_API",
+	"payload": {
+		"moduleFilePath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/services/cars.service-module.ts",
+		"publicApiPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/index.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command MODULE_UPDATE_PUBLIC_API"
+}
+[info] [CommandBus]: Handled  MODULE_UPDATE_PUBLIC_API: {
+	"commandName": "MODULE_UPDATE_PUBLIC_API",
+	"payload": {
+		"moduleFilePath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/services/cars.service-module.ts",
+		"publicApiPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/index.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  MODULE_UPDATE_PUBLIC_API"
+}
+[info] [CommandBus]: Handled  MODULE_CREATE_MODULE: {
+	"commandName": "MODULE_CREATE_MODULE",
+	"payload": {
+		"filePath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/services/cars.service.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  MODULE_CREATE_MODULE"
+}
+[info] [CommandBus]: Handled  CREATE_SERVICE: {
+	"commandName": "CREATE_SERVICE",
+	"payload": {
+		"folderPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/services",
+		"name": "cars",
+		"suffix": "Service"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  CREATE_SERVICE"
+}
+[info] [CLI] Called Command service/create: {
+	"message": "[CLI] Called Command service/create",
+	"level": "info"
+}
+[info] [API] Response ok: service/create: {
+	"result": {
+		"filePath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/services/cars.service.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: service/create"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/components/cars.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "5CnisHIe6_",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/components/cars.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "cars",
+			"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "cars",
+			"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "5CnisHIe6_",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "components",
+			"insideOf": "Lib",
+			"config": {
+				"stylesExtension": "scss",
+				"viewEncapsulation": "None",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "models",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "repository",
+			"type": "ABSTRACTION",
+			"suffix": "Repository",
+			"folder": "repositories",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "service",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "Lib"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "components",
+			"insideOf": "Lib",
+			"config": {
+				"stylesExtension": "scss",
+				"viewEncapsulation": "None",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "models",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "repository",
+			"type": "ABSTRACTION",
+			"suffix": "Repository",
+			"folder": "repositories",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "service",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "Lib"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/components/cars.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "CRcCD9Re9O",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/components/cars.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "cars",
+			"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "cars",
+			"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "CRcCD9Re9O",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "components",
+			"insideOf": "Lib",
+			"config": {
+				"stylesExtension": "scss",
+				"viewEncapsulation": "None",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "models",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "repository",
+			"type": "ABSTRACTION",
+			"suffix": "Repository",
+			"folder": "repositories",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "service",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "Lib"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "components",
+			"insideOf": "Lib",
+			"config": {
+				"stylesExtension": "scss",
+				"viewEncapsulation": "None",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "models",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "repository",
+			"type": "ABSTRACTION",
+			"suffix": "Repository",
+			"folder": "repositories",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "service",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "Lib"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/components/cars.component.html"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "_v2BT8fwOV",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/components/cars.component.html"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/components/cars.component-module.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "K-jSRRY1wy",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/components/cars.component-module.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[error] [API]: Error Entity not found for suffix: component-module: {
+	"loggerData": {
+		"action": "entity/actions",
+		"params": {
+			"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/components/cars.component-module.ts"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service"
+			},
+			"userContext": {
+				"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+				"correlationId": "K-jSRRY1wy",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": {},
+	"stack": "Error: Entity not found for suffix: component-module\n    at getEntityActions (C:\\Users\\mati1\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:8882:15)\n    at async callQueryCli (C:\\Users\\mati1\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:9938:20)\n    at async callHandler (C:\\Users\\mati1\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:2597:27)",
+	"level": "error",
+	"message": "[API]: Error Entity not found for suffix: component-module"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/services/cars.service-module.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "zwEQKsFvx_",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/services/cars.service-module.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[error] [API]: Error Entity not found for suffix: service-module: {
+	"loggerData": {
+		"action": "entity/actions",
+		"params": {
+			"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/services/cars.service-module.ts"
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service"
+			},
+			"userContext": {
+				"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+				"correlationId": "zwEQKsFvx_",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": {},
+	"stack": "Error: Entity not found for suffix: service-module\n    at getEntityActions (C:\\Users\\mati1\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:8882:15)\n    at async callQueryCli (C:\\Users\\mati1\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:9938:20)\n    at async callHandler (C:\\Users\\mati1\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:2597:27)",
+	"level": "error",
+	"message": "[API]: Error Entity not found for suffix: service-module"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/src/app/pages/home.page.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "3z_NQiSzcV",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/src/app/pages/home.page.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "cars-service",
+			"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/src/app"
+		},
+		"otherProjects": [
+			{
+				"name": "cars",
+				"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "cars-service",
+			"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/src/app"
+		},
+		"otherProjects": [
+			{
+				"name": "cars",
+				"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/src/app"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "3z_NQiSzcV",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/src/app"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/application/ports/secondary/dto/car.dto.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "N1FhmyGcRp",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib/application/ports/secondary/dto/car.dto.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "cars",
+			"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "cars",
+			"path": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "N1FhmyGcRp",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "C:/Users/mati1/Desktop/Own work/1 Nauka/Aplikacja 3/cars-service/libs/cars/src/lib"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "components",
+			"insideOf": "Lib",
+			"config": {
+				"stylesExtension": "scss",
+				"viewEncapsulation": "None",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "models",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "repository",
+			"type": "ABSTRACTION",
+			"suffix": "Repository",
+			"folder": "repositories",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "service",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "Lib"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "components",
+			"insideOf": "Lib",
+			"config": {
+				"stylesExtension": "scss",
+				"viewEncapsulation": "None",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "model",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Model",
+			"folder": "models",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "repository",
+			"type": "ABSTRACTION",
+			"suffix": "Repository",
+			"folder": "repositories",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "service",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "services",
+			"insideOf": "Lib"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
