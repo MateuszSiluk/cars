@@ -15,7 +15,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr *ngFor="let car of cars$ | async">
+          <tr *ngFor="let car of cars$ | async; let i = index">
             <td>{{ car.id }}</td>
             <td>{{ car.model }}</td>
             <td>{{ car.plate }}</td>
