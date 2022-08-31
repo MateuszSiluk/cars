@@ -27,6 +27,7 @@ export class CarsState implements GetsAllShowAllCarsQueryPort {
                 car.model,
                 car.plate,
                 car.deliveryDate,
+                car.deadline,
                 car.client.firstName,
                 car.client.surname,
                 car.cost,
