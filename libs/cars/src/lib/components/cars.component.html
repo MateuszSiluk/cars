@@ -1,7 +1,10 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-12">
-      <table class="table table-striped">
+      <table
+        class="cs-table table table-striped"
+        *ngIf="(cars$ | async)?.length != 0; else noCarsInfo"
+      >
         <thead>
           <tr>
             <th>id</th>
@@ -16,7 +19,9 @@
         </thead>
         <tbody>
           <tr *ngFor="let car of cars$ | async; let i = index">
-            <td>{{ car.id }}</td>
+            <td [ngClass]="{ 'row-error': car.isFullyDamaged }">
+              {{ car.id }}
+            </td>
             <td>{{ car.model }}</td>
             <td>{{ car.plate }}</td>
             <td>{{ car.deliveryDate }}</td>
@@ -36,3 +41,9 @@
 <ul>
   <li *ngFor="let item of cars$ | async">{{ item | json }}</li>
 </ul>
+
+<ng-template #noCarsInfo>
+  <div class="no-cars-info">
+    <p>Currently no cars in service</p>
+  </div>
+</ng-template>
