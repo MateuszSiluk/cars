@@ -33,6 +33,13 @@
         </tbody>
       </table>
     </div>
+    <div class="row">
+      <div class="col-sm-12 ">
+        <div class="total-cost">
+          <p class="text-right" *ngIf="(totalCost$ |async) as totalCost">{{totalCost.total}} PLN</p>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -42,7 +49,7 @@
   <li *ngFor="let item of cars$ | async">{{ item | json }}</li>
 </ul>
 <br>
-<p *ngIf="(totalCost$ |async) as totalCost">{{totalCost.total }}</p>
+
 <ng-template #noCarsInfo>
   <div class="no-cars-info">
     <p>Currently no cars in service</p>
