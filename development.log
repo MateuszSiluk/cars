@@ -1845,3 +1845,2024 @@
 	"level": "info",
 	"message": "[API] Response ok: entity/list"
 }
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/application/state/cars.state.ts",
+		"position": 1214
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Learn/cars"
+		},
+		"userContext": {
+			"id": "",
+			"correlationId": "aC0VBuljuP",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/application/state/cars.state.ts",
+		"position": 1214
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[error] [API]: Error Entity not found for suffix: state: {
+	"loggerData": {
+		"action": "entity/actions",
+		"params": {
+			"clickedPath": "D:/Learn/cars/libs/cars/src/lib/application/state/cars.state.ts",
+			"position": 1214
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "D:/Learn/cars"
+			},
+			"userContext": {
+				"id": "",
+				"correlationId": "aC0VBuljuP",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": {},
+	"stack": "Error: Entity not found for suffix: state\n    at getEntityActions (C:\\Users\\mati1\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:8904:15)\n    at async callQueryCli (C:\\Users\\mati1\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:10144:20)\n    at async callHandler (C:\\Users\\mati1\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:2601:27)",
+	"level": "error",
+	"message": "[API]: Error Entity not found for suffix: state"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/application/state/cars.state.ts",
+		"position": 1192
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Learn/cars"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "aXThupt7db",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[error] [API]: Error Libs folder is not configured: {
+	"loggerData": {
+		"action": "entity/actions",
+		"params": {
+			"clickedPath": "D:/Learn/cars/libs/cars/src/lib/application/state/cars.state.ts",
+			"position": 1192
+		},
+		"context": {
+			"workspace": {
+				"rootPath": "D:/Learn/cars"
+			},
+			"userContext": {
+				"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+				"correlationId": "aXThupt7db",
+				"logEnvId": "development"
+			}
+		}
+	},
+	"error": {},
+	"stack": "Error: Libs folder is not configured\n    at getWorkspaceQueryHandler (C:\\Users\\mati1\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:9462:15)\n    at async outputResult (C:\\Users\\mati1\\AppData\\Roaming\\JetBrains\\WebStorm2022.2\\plugins\\LowgularJPlugin\\cli\\main.js:2610:31)",
+	"level": "error",
+	"message": "[API]: Error Libs folder is not configured"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/application/state/cars.state.ts",
+		"position": 1223
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Learn/cars"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "4R82DD7yzy",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/application/state/cars.state.ts",
+		"position": 1223
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_RXJS",
+			"label": "Add RxJS",
+			"context": {
+				"parentMethod": "getAllShowAllCarsQuery"
+			}
+		},
+		{
+			"id": "IMPLEMENT",
+			"label": "Implement",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_RXJS",
+			"label": "Add RxJS",
+			"context": {
+				"parentMethod": "getAllShowAllCarsQuery"
+			}
+		},
+		{
+			"id": "IMPLEMENT",
+			"label": "Implement",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/application/state/cars.state.ts",
+		"position": 1141
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Learn/cars"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "veTtKeHiTF",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/application/state/cars.state.ts",
+		"position": 1141
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_RXJS",
+			"label": "Add RxJS",
+			"context": {
+				"parentMethod": "getAllShowAllCarsQuery"
+			}
+		},
+		{
+			"id": "IMPLEMENT",
+			"label": "Implement",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_RXJS",
+			"label": "Add RxJS",
+			"context": {
+				"parentMethod": "getAllShowAllCarsQuery"
+			}
+		},
+		{
+			"id": "IMPLEMENT",
+			"label": "Implement",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/components/cars.component.scss"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Learn/cars"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "k9TpEQhJBQ",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/components/cars.component.scss"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "cars",
+			"path": "D:/Learn/cars/libs/cars/src/lib"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "cars",
+			"path": "D:/Learn/cars/libs/cars/src/lib"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Learn/cars"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "k9TpEQhJBQ",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "adapters/primary/components/$name$",
+			"insideOf": "Lib",
+			"config": {
+				"stylesExtension": "scss",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "directive",
+			"type": "ANGULAR",
+			"suffix": "Directive",
+			"folder": "adapters/primary/directives/$name$",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "resolver",
+			"type": "ANGULAR",
+			"suffix": "Resolver",
+			"folder": "adapters/primary/resolvers/$name$",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "guard",
+			"type": "ANGULAR",
+			"suffix": "Guard",
+			"folder": "adapters/primary/guards/$name$",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "eventHandler",
+			"type": "SERVICE",
+			"suffix": "EventHandler",
+			"folder": "adapters/primary/event-handlers/$name$",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "command",
+			"type": "OBJECT",
+			"suffix": "Command",
+			"folder": "application/ports/primary/command",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "commandPort",
+			"type": "ABSTRACTION",
+			"suffix": "CommandPort",
+			"folder": "application/ports/primary/command",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "query",
+			"type": "OBJECT",
+			"suffix": "Query",
+			"folder": "application/ports/primary/query",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "queryPort",
+			"type": "ABSTRACTION",
+			"suffix": "QueryPort",
+			"folder": "application/ports/primary/query",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "state",
+			"type": "SERVICE",
+			"suffix": "State",
+			"folder": "application/state",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "event",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Event",
+			"folder": "application/ports/secondary/event",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "eventPort",
+			"type": "ABSTRACTION",
+			"suffix": "EventPort",
+			"folder": "application/ports/secondary/event",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "dto",
+			"type": "DATA_STRUCTURE",
+			"suffix": "DTO",
+			"folder": "application/ports/secondary/dto",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "dtoPort",
+			"type": "ABSTRACTION",
+			"suffix": "DtoPort",
+			"folder": "application/ports/secondary/dto",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "context",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Context",
+			"folder": "application/ports/secondary/context",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "contextPort",
+			"type": "ABSTRACTION",
+			"suffix": "ContextPort",
+			"folder": "application/ports/secondary/context",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "adapters/secondary/services",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "responseObject",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "adapters/secondary/services",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "storage",
+			"type": "SERVICE",
+			"suffix": "Storage",
+			"folder": "adapters/secondary/storages",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "eventDispatcher",
+			"type": "SERVICE",
+			"suffix": "EventDispatcher",
+			"folder": "adapters/secondary/event-dispatchers",
+			"insideOf": "Lib"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "adapters/primary/components/$name$",
+			"insideOf": "Lib",
+			"config": {
+				"stylesExtension": "scss",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "directive",
+			"type": "ANGULAR",
+			"suffix": "Directive",
+			"folder": "adapters/primary/directives/$name$",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "resolver",
+			"type": "ANGULAR",
+			"suffix": "Resolver",
+			"folder": "adapters/primary/resolvers/$name$",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "guard",
+			"type": "ANGULAR",
+			"suffix": "Guard",
+			"folder": "adapters/primary/guards/$name$",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "eventHandler",
+			"type": "SERVICE",
+			"suffix": "EventHandler",
+			"folder": "adapters/primary/event-handlers/$name$",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "command",
+			"type": "OBJECT",
+			"suffix": "Command",
+			"folder": "application/ports/primary/command",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "commandPort",
+			"type": "ABSTRACTION",
+			"suffix": "CommandPort",
+			"folder": "application/ports/primary/command",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "query",
+			"type": "OBJECT",
+			"suffix": "Query",
+			"folder": "application/ports/primary/query",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "queryPort",
+			"type": "ABSTRACTION",
+			"suffix": "QueryPort",
+			"folder": "application/ports/primary/query",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "state",
+			"type": "SERVICE",
+			"suffix": "State",
+			"folder": "application/state",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "event",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Event",
+			"folder": "application/ports/secondary/event",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "eventPort",
+			"type": "ABSTRACTION",
+			"suffix": "EventPort",
+			"folder": "application/ports/secondary/event",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "dto",
+			"type": "DATA_STRUCTURE",
+			"suffix": "DTO",
+			"folder": "application/ports/secondary/dto",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "dtoPort",
+			"type": "ABSTRACTION",
+			"suffix": "DtoPort",
+			"folder": "application/ports/secondary/dto",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "context",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Context",
+			"folder": "application/ports/secondary/context",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "contextPort",
+			"type": "ABSTRACTION",
+			"suffix": "ContextPort",
+			"folder": "application/ports/secondary/context",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "adapters/secondary/services",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "responseObject",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "adapters/secondary/services",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "storage",
+			"type": "SERVICE",
+			"suffix": "Storage",
+			"folder": "adapters/secondary/storages",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "eventDispatcher",
+			"type": "SERVICE",
+			"suffix": "EventDispatcher",
+			"folder": "adapters/secondary/event-dispatchers",
+			"insideOf": "Lib"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for object/create: {
+	"action": "object/create",
+	"params": {
+		"name": "totalCost",
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/components/cars.component.scss",
+		"entityId": "query",
+		"properties": {
+			"total": "number"
+		}
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Learn/cars"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "k9TpEQhJBQ",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for object/create"
+}
+[info] [CLI] Calling Command object/create: {
+	"funcParams": {
+		"name": "totalCost",
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/components/cars.component.scss",
+		"entityId": "query",
+		"properties": {
+			"total": "number"
+		}
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command object/create"
+}
+[info] [CommandBus]: Dispatching command CREATE_OBJECT: {
+	"commandName": "CREATE_OBJECT",
+	"payload": {
+		"folderPath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query",
+		"name": "totalCost",
+		"suffix": "Query",
+		"properties": {
+			"total": "number"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command CREATE_OBJECT"
+}
+[info] [CommandBus]: Handled  CREATE_OBJECT: {
+	"commandName": "CREATE_OBJECT",
+	"payload": {
+		"folderPath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query",
+		"name": "totalCost",
+		"suffix": "Query",
+		"properties": {
+			"total": "number"
+		}
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  CREATE_OBJECT"
+}
+[info] [CLI] Called Command object/create: {
+	"message": "[CLI] Called Command object/create",
+	"level": "info"
+}
+[info] [API] Response ok: object/create: {
+	"result": {
+		"filePath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: object/create"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query.ts",
+		"position": 83
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Learn/cars"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "A5V7Jobrzr",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query.ts",
+		"position": 83
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query.ts",
+		"position": 82
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Learn/cars"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "LrM4-JYDgL",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query.ts",
+		"position": 82
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/show-all-cars.query.ts",
+		"position": 404
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Learn/cars"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "9DGSsg1KwI",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/show-all-cars.query.ts",
+		"position": 404
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for projects/list: {
+	"action": "projects/list",
+	"params": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/show-all-cars.query.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Learn/cars"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "XiNU6HSbs0",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for projects/list"
+}
+[info] [CLI] Calling Query projects/list: {
+	"funcParams": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/show-all-cars.query.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query projects/list"
+}
+[info] [CLI] Called Query projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "cars",
+			"path": "D:/Learn/cars/libs/cars/src/lib"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[CLI] Called Query projects/list"
+}
+[info] [API] Response ok: projects/list: {
+	"result": {
+		"clickedProject": {
+			"name": "cars",
+			"path": "D:/Learn/cars/libs/cars/src/lib"
+		},
+		"otherProjects": []
+	},
+	"level": "info",
+	"message": "[API] Response ok: projects/list"
+}
+[info] [API] Request for entity/list: {
+	"action": "entity/list",
+	"params": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Learn/cars"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "XiNU6HSbs0",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/list"
+}
+[info] [CLI] Calling Query entity/list: {
+	"funcParams": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/list"
+}
+[info] [CLI] Called Query entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "adapters/primary/components/$name$",
+			"insideOf": "Lib",
+			"config": {
+				"stylesExtension": "scss",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "directive",
+			"type": "ANGULAR",
+			"suffix": "Directive",
+			"folder": "adapters/primary/directives/$name$",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "resolver",
+			"type": "ANGULAR",
+			"suffix": "Resolver",
+			"folder": "adapters/primary/resolvers/$name$",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "guard",
+			"type": "ANGULAR",
+			"suffix": "Guard",
+			"folder": "adapters/primary/guards/$name$",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "eventHandler",
+			"type": "SERVICE",
+			"suffix": "EventHandler",
+			"folder": "adapters/primary/event-handlers/$name$",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "command",
+			"type": "OBJECT",
+			"suffix": "Command",
+			"folder": "application/ports/primary/command",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "commandPort",
+			"type": "ABSTRACTION",
+			"suffix": "CommandPort",
+			"folder": "application/ports/primary/command",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "query",
+			"type": "OBJECT",
+			"suffix": "Query",
+			"folder": "application/ports/primary/query",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "queryPort",
+			"type": "ABSTRACTION",
+			"suffix": "QueryPort",
+			"folder": "application/ports/primary/query",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "state",
+			"type": "SERVICE",
+			"suffix": "State",
+			"folder": "application/state",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "event",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Event",
+			"folder": "application/ports/secondary/event",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "eventPort",
+			"type": "ABSTRACTION",
+			"suffix": "EventPort",
+			"folder": "application/ports/secondary/event",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "dto",
+			"type": "DATA_STRUCTURE",
+			"suffix": "DTO",
+			"folder": "application/ports/secondary/dto",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "dtoPort",
+			"type": "ABSTRACTION",
+			"suffix": "DtoPort",
+			"folder": "application/ports/secondary/dto",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "context",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Context",
+			"folder": "application/ports/secondary/context",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "contextPort",
+			"type": "ABSTRACTION",
+			"suffix": "ContextPort",
+			"folder": "application/ports/secondary/context",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "adapters/secondary/services",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "responseObject",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "adapters/secondary/services",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "storage",
+			"type": "SERVICE",
+			"suffix": "Storage",
+			"folder": "adapters/secondary/storages",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "eventDispatcher",
+			"type": "SERVICE",
+			"suffix": "EventDispatcher",
+			"folder": "adapters/secondary/event-dispatchers",
+			"insideOf": "Lib"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/list"
+}
+[info] [API] Response ok: entity/list: {
+	"result": [
+		{
+			"id": "smartComponent",
+			"type": "ANGULAR_COMPONENT",
+			"suffix": "Component",
+			"folder": "adapters/primary/components/$name$",
+			"insideOf": "Lib",
+			"config": {
+				"stylesExtension": "scss",
+				"viewEncapsulation": "Emulated",
+				"selector": "generated",
+				"changeDetectionStrategy": "OnPush"
+			}
+		},
+		{
+			"id": "directive",
+			"type": "ANGULAR",
+			"suffix": "Directive",
+			"folder": "adapters/primary/directives/$name$",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "resolver",
+			"type": "ANGULAR",
+			"suffix": "Resolver",
+			"folder": "adapters/primary/resolvers/$name$",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "guard",
+			"type": "ANGULAR",
+			"suffix": "Guard",
+			"folder": "adapters/primary/guards/$name$",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "eventHandler",
+			"type": "SERVICE",
+			"suffix": "EventHandler",
+			"folder": "adapters/primary/event-handlers/$name$",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "command",
+			"type": "OBJECT",
+			"suffix": "Command",
+			"folder": "application/ports/primary/command",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "commandPort",
+			"type": "ABSTRACTION",
+			"suffix": "CommandPort",
+			"folder": "application/ports/primary/command",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "query",
+			"type": "OBJECT",
+			"suffix": "Query",
+			"folder": "application/ports/primary/query",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "queryPort",
+			"type": "ABSTRACTION",
+			"suffix": "QueryPort",
+			"folder": "application/ports/primary/query",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "state",
+			"type": "SERVICE",
+			"suffix": "State",
+			"folder": "application/state",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "event",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Event",
+			"folder": "application/ports/secondary/event",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "eventPort",
+			"type": "ABSTRACTION",
+			"suffix": "EventPort",
+			"folder": "application/ports/secondary/event",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "dto",
+			"type": "DATA_STRUCTURE",
+			"suffix": "DTO",
+			"folder": "application/ports/secondary/dto",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "dtoPort",
+			"type": "ABSTRACTION",
+			"suffix": "DtoPort",
+			"folder": "application/ports/secondary/dto",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "context",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Context",
+			"folder": "application/ports/secondary/context",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "contextPort",
+			"type": "ABSTRACTION",
+			"suffix": "ContextPort",
+			"folder": "application/ports/secondary/context",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "dataService",
+			"type": "SERVICE",
+			"suffix": "Service",
+			"folder": "adapters/secondary/services",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "responseObject",
+			"type": "DATA_STRUCTURE",
+			"suffix": "Response",
+			"folder": "adapters/secondary/services",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "storage",
+			"type": "SERVICE",
+			"suffix": "Storage",
+			"folder": "adapters/secondary/storages",
+			"insideOf": "Lib"
+		},
+		{
+			"id": "eventDispatcher",
+			"type": "SERVICE",
+			"suffix": "EventDispatcher",
+			"folder": "adapters/secondary/event-dispatchers",
+			"insideOf": "Lib"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/list"
+}
+[info] [API] Request for abstraction/create: {
+	"action": "abstraction/create",
+	"params": {
+		"name": "totalCost",
+		"dataStructureFile": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/show-all-cars.query.ts",
+		"entityId": "queryPort"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Learn/cars"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "XiNU6HSbs0",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for abstraction/create"
+}
+[info] [CLI] Calling Command abstraction/create: {
+	"funcParams": {
+		"name": "totalCost",
+		"dataStructureFile": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/show-all-cars.query.ts",
+		"entityId": "queryPort"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command abstraction/create"
+}
+[info] [CommandBus]: Dispatching command CREATE_ABSTRACTION: {
+	"commandName": "CREATE_ABSTRACTION",
+	"payload": {
+		"folderPath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query",
+		"name": "totalCost",
+		"suffix": "QueryPort"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command CREATE_ABSTRACTION"
+}
+[info] [CommandBus]: Handled  CREATE_ABSTRACTION: {
+	"commandName": "CREATE_ABSTRACTION",
+	"payload": {
+		"folderPath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query",
+		"name": "totalCost",
+		"suffix": "QueryPort"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  CREATE_ABSTRACTION"
+}
+[info] [CLI] Called Command abstraction/create: {
+	"message": "[CLI] Called Command abstraction/create",
+	"level": "info"
+}
+[info] [API] Response ok: abstraction/create: {
+	"result": {
+		"filePath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query-port.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: abstraction/create"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query-port.ts",
+		"position": 192
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Learn/cars"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "_fshNttEUb",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query-port.ts",
+		"position": 192
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_METHOD",
+			"label": "Add method",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for entity/return-types: {
+	"action": "entity/return-types",
+	"params": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query-port.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Learn/cars"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "_fshNttEUb",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/return-types"
+}
+[info] [CLI] Calling Query entity/return-types: {
+	"funcParams": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query-port.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/return-types"
+}
+[info] [CLI] Called Query entity/return-types: {
+	"result": [
+		{
+			"name": "ShowAllCarsQuery",
+			"path": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/show-all-cars.query.ts"
+		},
+		{
+			"name": "TotalCostQuery",
+			"path": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query.ts"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/return-types"
+}
+[info] [API] Response ok: entity/return-types: {
+	"result": [
+		{
+			"name": "ShowAllCarsQuery",
+			"path": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/show-all-cars.query.ts"
+		},
+		{
+			"name": "TotalCostQuery",
+			"path": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query.ts"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/return-types"
+}
+[info] [API] Request for method-signature/add-read: {
+	"action": "method-signature/add-read",
+	"params": {
+		"entityFilePath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query-port.ts",
+		"name": "totalCost",
+		"params": {},
+		"returnType": "number"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Learn/cars"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "_fshNttEUb",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for method-signature/add-read"
+}
+[info] [CLI] Calling Command method-signature/add-read: {
+	"funcParams": {
+		"entityFilePath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query-port.ts",
+		"name": "totalCost",
+		"params": {},
+		"returnType": "number"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command method-signature/add-read"
+}
+[info] [CommandBus]: Dispatching command ADD_READ_METHOD_SIGNATURE: {
+	"commandName": "ADD_READ_METHOD_SIGNATURE",
+	"payload": {
+		"abstractionFilePath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query-port.ts",
+		"name": "totalCost",
+		"params": {},
+		"returnType": "number",
+		"type": "interface"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command ADD_READ_METHOD_SIGNATURE"
+}
+[info] [CommandBus]: Handled  ADD_READ_METHOD_SIGNATURE: {
+	"commandName": "ADD_READ_METHOD_SIGNATURE",
+	"payload": {
+		"abstractionFilePath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query-port.ts",
+		"name": "totalCost",
+		"params": {},
+		"returnType": "number",
+		"type": "interface"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  ADD_READ_METHOD_SIGNATURE"
+}
+[info] [CLI] Called Command method-signature/add-read: {
+	"message": "[CLI] Called Command method-signature/add-read",
+	"level": "info"
+}
+[info] [API] Response ok: method-signature/add-read: {
+	"result": {
+		"filePath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query-port.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: method-signature/add-read"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/application/state/cars.state.ts",
+		"position": 1227
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Learn/cars"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "NsCtCVIyzu",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/application/state/cars.state.ts",
+		"position": 1227
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_RXJS",
+			"label": "Add RxJS",
+			"context": {
+				"parentMethod": "getAllShowAllCarsQuery"
+			}
+		},
+		{
+			"id": "IMPLEMENT",
+			"label": "Implement",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_RXJS",
+			"label": "Add RxJS",
+			"context": {
+				"parentMethod": "getAllShowAllCarsQuery"
+			}
+		},
+		{
+			"id": "IMPLEMENT",
+			"label": "Implement",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for implementable/list: {
+	"action": "implementable/list",
+	"params": {
+		"entityFilePath": "D:/Learn/cars/libs/cars/src/lib/application/state/cars.state.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Learn/cars"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "NsCtCVIyzu",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for implementable/list"
+}
+[info] [CLI] Calling Query implementable/list: {
+	"funcParams": {
+		"entityFilePath": "D:/Learn/cars/libs/cars/src/lib/application/state/cars.state.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query implementable/list"
+}
+[info] [CLI] Called Query implementable/list: {
+	"result": [
+		{
+			"file": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query-port.ts",
+			"name": "TotalCostQueryPort",
+			"type": "ABSTRACTION"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query implementable/list"
+}
+[info] [API] Response ok: implementable/list: {
+	"result": [
+		{
+			"file": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query-port.ts",
+			"name": "TotalCostQueryPort",
+			"type": "ABSTRACTION"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: implementable/list"
+}
+[info] [API] Request for implementable/implement: {
+	"action": "implementable/implement",
+	"params": {
+		"entityFilePath": "D:/Learn/cars/libs/cars/src/lib/application/state/cars.state.ts",
+		"abstractionFilePath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query-port.ts",
+		"type": "ABSTRACTION"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Learn/cars"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "NsCtCVIyzu",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for implementable/implement"
+}
+[info] [CLI] Calling Command implementable/implement: {
+	"funcParams": {
+		"entityFilePath": "D:/Learn/cars/libs/cars/src/lib/application/state/cars.state.ts",
+		"abstractionFilePath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query-port.ts",
+		"type": "ABSTRACTION"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command implementable/implement"
+}
+[info] [CommandBus]: Dispatching command IMPLEMENT_ABSTRACTION: {
+	"commandName": "IMPLEMENT_ABSTRACTION",
+	"payload": {
+		"entityFile": "D:/Learn/cars/libs/cars/src/lib/application/state/cars.state.ts",
+		"abstractionFile": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query-port.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command IMPLEMENT_ABSTRACTION"
+}
+[info] [EventBus]: Broadcasting event ABSTRACTION_IMPLMENTED: {
+	"type": "ABSTRACTION_IMPLMENTED",
+	"payload": {
+		"abstractionPath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query-port.ts",
+		"entityPath": "D:/Learn/cars/libs/cars/src/lib/application/state/cars.state.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasting event ABSTRACTION_IMPLMENTED"
+}
+[info] [CommandBus]: Dispatching command MODULE_PROVIDE_TOKEN: {
+	"commandName": "MODULE_PROVIDE_TOKEN",
+	"payload": {
+		"portFile": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query-port.ts",
+		"implementingClassFile": "D:/Learn/cars/libs/cars/src/lib/application/state/cars.state.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command MODULE_PROVIDE_TOKEN"
+}
+[info] [EventBus]: Broadcasted ABSTRACTION_IMPLMENTED: {
+	"event": {
+		"abstractionPath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query-port.ts",
+		"entityPath": "D:/Learn/cars/libs/cars/src/lib/application/state/cars.state.ts"
+	},
+	"level": "info",
+	"message": "[EventBus]: Broadcasted ABSTRACTION_IMPLMENTED"
+}
+[info] [CommandBus]: Handled  MODULE_PROVIDE_TOKEN: {
+	"commandName": "MODULE_PROVIDE_TOKEN",
+	"payload": {
+		"portFile": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query-port.ts",
+		"implementingClassFile": "D:/Learn/cars/libs/cars/src/lib/application/state/cars.state.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  MODULE_PROVIDE_TOKEN"
+}
+[info] [CommandBus]: Handled  IMPLEMENT_ABSTRACTION: {
+	"commandName": "IMPLEMENT_ABSTRACTION",
+	"payload": {
+		"entityFile": "D:/Learn/cars/libs/cars/src/lib/application/state/cars.state.ts",
+		"abstractionFile": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query-port.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  IMPLEMENT_ABSTRACTION"
+}
+[info] [CLI] Called Command implementable/implement: {
+	"message": "[CLI] Called Command implementable/implement",
+	"level": "info"
+}
+[info] [API] Response ok: implementable/implement: {
+	"result": {
+		"filePath": "D:/Learn/cars/libs/cars/src/lib/application/state/cars.state.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: implementable/implement"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/application/state/cars.state.ts",
+		"position": 1450
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Learn/cars"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "_maFmoqxAc",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/application/state/cars.state.ts",
+		"position": 1450
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "IMPLEMENT",
+			"label": "Implement",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "IMPLEMENT",
+			"label": "Implement",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "D:/Learn/cars/libs/cars/src/lib/application/state/cars.state.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Learn/cars"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "_maFmoqxAc",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "D:/Learn/cars/libs/cars/src/lib/application/state/cars.state.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/application/state/cars.state.ts",
+		"position": 1670
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Learn/cars"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "33fcSEaQmc",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/application/state/cars.state.ts",
+		"position": 1670
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "IMPLEMENT",
+			"label": "Implement",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "IMPLEMENT",
+			"label": "Implement",
+			"context": {}
+		},
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/components/cars.component.ts",
+		"position": 858
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Learn/cars"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "NdLVQct2zm",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/components/cars.component.ts",
+		"position": 858
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "D:/Learn/cars/libs/cars/src/lib/components/cars.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Learn/cars"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "NdLVQct2zm",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "D:/Learn/cars/libs/cars/src/lib/components/cars.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"file": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query-port.ts",
+			"name": "TotalCostQueryPort",
+			"type": "ABSTRACTION",
+			"dataType": "Internal"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"file": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query-port.ts",
+			"name": "TotalCostQueryPort",
+			"type": "ABSTRACTION",
+			"dataType": "Internal"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for injectable/inject: {
+	"action": "injectable/inject",
+	"params": {
+		"entityFilePath": "D:/Learn/cars/libs/cars/src/lib/components/cars.component.ts",
+		"injectingPath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query-port.ts",
+		"type": "ABSTRACTION"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Learn/cars"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "NdLVQct2zm",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/inject"
+}
+[info] [CLI] Calling Command injectable/inject: {
+	"funcParams": {
+		"entityFilePath": "D:/Learn/cars/libs/cars/src/lib/components/cars.component.ts",
+		"injectingPath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query-port.ts",
+		"type": "ABSTRACTION"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command injectable/inject"
+}
+[info] [CommandBus]: Dispatching command INJECT_ABSTRACTION_DEPENDENCY: {
+	"commandName": "INJECT_ABSTRACTION_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "D:/Learn/cars/libs/cars/src/lib/components/cars.component.ts",
+		"injectingFilePath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query-port.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command INJECT_ABSTRACTION_DEPENDENCY"
+}
+[info] [CommandBus]: Handled  INJECT_ABSTRACTION_DEPENDENCY: {
+	"commandName": "INJECT_ABSTRACTION_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "D:/Learn/cars/libs/cars/src/lib/components/cars.component.ts",
+		"injectingFilePath": "D:/Learn/cars/libs/cars/src/lib/application/ports/primary/query/total-cost.query-port.ts"
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  INJECT_ABSTRACTION_DEPENDENCY"
+}
+[info] [CLI] Called Command injectable/inject: {
+	"message": "[CLI] Called Command injectable/inject",
+	"level": "info"
+}
+[info] [API] Response ok: injectable/inject: {
+	"result": {
+		"filePath": "D:/Learn/cars/libs/cars/src/lib/components/cars.component.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: injectable/inject"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/components/cars.component.ts",
+		"position": 848
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Learn/cars"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "G1phPqLzIm",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/components/cars.component.ts",
+		"position": 848
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "INJECT",
+			"label": "Inject",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/components/cars.component.html",
+		"position": 1340
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "D:/Learn/cars"
+		},
+		"userContext": {
+			"id": "HOdt1x8m3CVyPL25JD54yFCI5n42",
+			"correlationId": "k34Q75vHN8",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "D:/Learn/cars/libs/cars/src/lib/components/cars.component.html",
+		"position": 1340
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": [
+		{
+			"id": "ADD_FORM",
+			"label": "Add Form",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": [
+		{
+			"id": "ADD_FORM",
+			"label": "Add Form",
+			"context": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}

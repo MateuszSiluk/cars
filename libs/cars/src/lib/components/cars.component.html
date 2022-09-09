@@ -41,7 +41,8 @@
 <ul>
   <li *ngFor="let item of cars$ | async">{{ item | json }}</li>
 </ul>
-
+<br>
+<p *ngIf="(totalCost$ |async) as totalCost">{{totalCost.total }}</p>
 <ng-template #noCarsInfo>
   <div class="no-cars-info">
     <p>Currently no cars in service</p>
